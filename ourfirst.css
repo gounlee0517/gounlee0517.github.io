@@ -1,7 +1,7 @@
 body {
     margin: 0 auto;
     padding: 0;
-    width: 1280px;
+    width: 100%;
     height: 100%;
 }
 
@@ -63,7 +63,6 @@ h4 {
 }
 
 .love-never {
-    width: 1280px;
     height: 950px;
     background-color: #E9E6D7;
     position: relative;
@@ -89,7 +88,7 @@ h4 {
     position: absolute;
     width: 1001px;
     height: 60px;
-    left: 100px;
+    left: 200px;
     top: 286px;
     
     font-family: 'Batang';
@@ -184,7 +183,7 @@ h4 {
     position: absolute;
     width: 1189px;
     height: 439px;
-    left: 10px;
+    left: 100px;
     top: 40px;
     
     font-family: 'Batang';
@@ -219,7 +218,7 @@ h4 {
     position: absolute;
     width: 585px;
     height: 168px;
-    left: 250px;
+    left: 300px;
     top: 300px;
     
     font-family: 'Batang';
