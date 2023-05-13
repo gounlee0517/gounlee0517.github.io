@@ -145,7 +145,7 @@ h4 {
 
 .first-anni h1 {
     position: absolute;
-    left: 100px;
+    left: 60px;
     top: 50px;
     
     font-family: serif;
@@ -184,7 +184,7 @@ h4 {
     position: absolute;
     width: 1189px;
     height: 439px;
-    left: 100px;
+    left: 50px;
     top: 40px;
     
     font-family: 'Batang';
@@ -201,7 +201,7 @@ h4 {
     position: absolute;
     width: 575px;
     height: 79px;
-    left: 705px;
+    left: 650px;
     top: 652px;
     
     color: #000000;
@@ -219,7 +219,7 @@ h4 {
     position: absolute;
     width: 585px;
     height: 168px;
-    left: 320px;
+    left: 300px;
     top: 300px;
     
     font-family: 'Batang';
