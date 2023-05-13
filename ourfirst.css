@@ -1,0 +1,236 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h4 {
+    font-family: 'San de More Demo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 85px;
+    
+    color: #000000;    
+}
+
+.main-pg {
+    margin: 0 auto;
+    width: 100%;
+    height: 832px;
+    background-color: #E9E6D7;
+    background-size: cover;
+    animation: background-changer 10s infinite linear alternate;
+}
+
+@keyframes background-changer {
+    0% {
+        background-image: url(./IMG_5981.JPG);
+    }
+    20% {
+        background-image: url(./KakaoTalk_20230513_223403196.jpg);
+    }
+    40% {
+        background-image: url(./KakaoTalk_20230513_223520097.jpg);
+    }
+    60% {
+        background-image: url(./KakaoTalk_20230513_223348763.jpg);
+    }
+    80% {
+        background-image: url(./KakaoTalk_20230513_223454418.jpg);
+    }
+    100% {
+        background-image: url(./IMG_5982.JPG);
+    }
+    
+    
+}
+
+.main-pg h1 {
+    position: absolute;
+    width: 767px;
+    height: 834px;
+    left: 27px;
+    top: -200px;
+    
+    font-family: 'San de More Demo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 250px;
+    line-height: 302px;
+    
+    color: #E9E6D7;
+}
+
+.love-never {
+    width: 100%;
+    height: 950px;
+    background-color: #E9E6D7;
+    position: relative;
+}
+
+.love-never h1 {
+    position: absolute;
+    width: 767px;
+    height: 834px;
+    left: 19px;
+    top: -200px;
+    
+    font-family: 'San de More Demo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 250px;
+    line-height: 302px;
+    
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.love-never p {
+    position: absolute;
+    width: 1001px;
+    height: 60px;
+    left: 310px;
+    top: 300px;
+    
+    font-family: 'Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 92px;
+    
+    color: #000000;   
+}
+
+.photo-div {
+    height: 832px;
+    position: relative;
+    background: #E9E6D7;
+}
+
+.grid-container {
+    margin-left: 500px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 35px 35px;
+    z-index: 10;
+}
+
+.grid-container div>img{
+    width: 300px;
+    height: 200px;
+    z-index: 100;
+    transition: all .5s ease-in-out;
+}
+
+.grid-container div>img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.photo-name {
+    position: absolute;
+    width: 295px;
+    height: 177px;
+    left: 27px;
+    top: 150px;
+    font-size: 90px;
+}
+
+.first-anni {
+    height: 832px;
+    background: #E9E6D7;
+    position: relative;
+}
+
+.first-anni h1 {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    
+    font-family: serif;
+    font-weight: 400;
+    font-size: 300px;
+    line-height: 354px;
+    
+    color: #919191;
+    animation: color-change 5s infinite linear alternate;
+}
+
+@keyframes color-change {
+    0% { color : rgb(229, 198, 125);}
+    50% { color : rgb(91, 143, 91);}
+    100% { color : rgb(213, 111, 111);}
+}
+
+.f-anni {
+    position: absolute;
+    width: 678px;
+    height: 79px;
+    left: 0px;
+    top: 0px;
+    
+    color: #000000;
+    
+    opacity: 0.5;
+}
+
+.letter {
+    position: relative;
+    height: 832px;
+    background: #E9E6D7;
+}
+
+.letter p {
+    position: absolute;
+    width: 1189px;
+    height: 439px;
+    left: 180px;
+    top: 40px;
+    
+    font-family: 'Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    
+    color: #000000;
+    
+}
+
+.letter h4 {
+    position: absolute;
+    width: 575px;
+    height: 79px;
+    left: 1100px;
+    top: 652px;
+    
+    color: #000000;
+    
+    opacity: 0.5;
+}
+
+.love-is {
+    position: relative;
+    height: 832px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, #E9E6D7 100%);
+}
+
+.love-is p {
+    position: absolute;
+    width: 585px;
+    height: 168px;
+    left: 520px;
+    top: 300px;
+    
+    font-family: 'Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    
+    color: #919191;
+    
+}
