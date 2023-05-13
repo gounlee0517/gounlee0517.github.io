@@ -1,7 +1,7 @@
 body {
     margin: 0 auto;
     padding: 0;
-    width: 100%;
+    width: 1280px;
     height: 100%;
 }
 
@@ -16,8 +16,7 @@ h4 {
 }
 
 .main-pg {
-    margin: 0 auto;
-    width: 100%;
+    position: relative;
     height: 832px;
     background-color: #E9E6D7;
     background-size: cover;
@@ -64,7 +63,7 @@ h4 {
 }
 
 .love-never {
-    width: 100%;
+    width: 1280px;
     height: 950px;
     background-color: #E9E6D7;
     position: relative;
@@ -90,13 +89,13 @@ h4 {
     position: absolute;
     width: 1001px;
     height: 60px;
-    left: 310px;
-    top: 300px;
+    left: 140px;
+    top: 286px;
     
     font-family: 'Batang';
     font-style: normal;
     font-weight: 400;
-    font-size: 80px;
+    font-size: 70px;
     line-height: 92px;
     
     color: #000000;   
@@ -151,8 +150,7 @@ h4 {
     
     font-family: serif;
     font-weight: 400;
-    font-size: 300px;
-    line-height: 354px;
+    font-size: 250px;
     
     color: #919191;
     animation: color-change 5s infinite linear alternate;
@@ -186,7 +184,7 @@ h4 {
     position: absolute;
     width: 1189px;
     height: 439px;
-    left: 180px;
+    left: 100px;
     top: 40px;
     
     font-family: 'Batang';
@@ -203,7 +201,7 @@ h4 {
     position: absolute;
     width: 575px;
     height: 79px;
-    left: 1100px;
+    left: 705px;
     top: 652px;
     
     color: #000000;
@@ -221,7 +219,7 @@ h4 {
     position: absolute;
     width: 585px;
     height: 168px;
-    left: 520px;
+    left: 320px;
     top: 300px;
     
     font-family: 'Batang';
