@@ -167,6 +167,7 @@ h4 {
     height: 79px;
     left: 0px;
     top: 0px;
+    font-size: 65px;
     
     color: #000000;
     
@@ -202,6 +203,8 @@ h4 {
     height: 79px;
     left: 580px;
     top: 652px;
+    font-size: 65px;
+    line-height: 0;
     
     color: #000000;
     
