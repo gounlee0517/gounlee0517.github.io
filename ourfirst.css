@@ -189,7 +189,7 @@ h4 {
     font-family: 'Batang';
     font-style: normal;
     font-weight: 100;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 35px;
     
     color: #000000;
@@ -200,7 +200,7 @@ h4 {
     position: absolute;
     width: 575px;
     height: 79px;
-    left: 600px;
+    left: 580px;
     top: 652px;
     
     color: #000000;
@@ -218,13 +218,13 @@ h4 {
     position: absolute;
     width: 585px;
     height: 168px;
-    left: 310px;
+    left: 360px;
     top: 300px;
     
     font-family: 'Batang';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 35px;
     text-align: center;
     
