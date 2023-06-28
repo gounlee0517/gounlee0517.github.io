@@ -126,7 +126,6 @@ html, body {
 .slide-box {
     width: 100vw;
     float: left;
-    transform: tranlateX (100px);
 }
 
 .slide-box div {
@@ -144,7 +143,7 @@ html, body {
     text-align: center;
     
     color: #FFFFFF;
-    transform: translateX(450px) translateY(300px);
+    transform: translateX(550px) translateY(300px);
 }
 
 .slide-box-2 {
@@ -156,11 +155,11 @@ html, body {
     text-align: center;
     
     color: #FFFFFF;
-    transform: translateX(450px) translateY(350px);
+    transform: translateX(550px) translateY(350px);
 }
 
 .slide-box-3 {
-    transform: translateX(450px) translateY(380px);
+    transform: translateX(550px) translateY(380px);
     text-align: center;
 }
 
