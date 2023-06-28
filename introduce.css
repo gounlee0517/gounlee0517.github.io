@@ -126,6 +126,7 @@ html, body {
 .slide-box {
     width: 100vw;
     float: left;
+    transform: tranlateX (100px);
 }
 
 .slide-box div {
