@@ -1,0 +1,584 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    height: 100%;
+}
+
+.main-pg {
+    height: 1080px;
+    background-color: #F0E6E1;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-pg-menu {
+    position: absolute;
+    left: 150px;
+    top: 20px;
+}
+
+.main-pg h1 {
+    font-family: 'Mongek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 90px;
+    display: flex;
+    align-items: flex-end;
+    
+    color: #2C1916;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-pg h1:hover {
+    color: rgba(99, 83, 81, 0.8);
+    cursor: pointer;
+}
+
+.main-pg-vector {
+    float: right;
+    position: absolute;
+    width: 850px;
+    height: 800px;
+    left: 1070px;
+    top: 150px;
+    
+    background: rgba(44, 25, 22, 0.8);
+    border-radius: 380px 0px 0px 380px;
+}
+
+.main-pg-vector-line {
+    width: 140px;
+    border: 2px solid #F0E6E1;
+    transform: translateX(460px);
+}
+
+.main-pg-vector-text {
+    position: absolute;
+    width: 800px;
+    height: 300px;
+    left: 160px;
+    top: 180px;
+}
+
+.main-pg-vector-text h4 {
+    font-family: 'San de More Demo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: #F0E6E1;
+    text-align: right;
+    margin-right: 200px;
+}
+
+.main-pg-vector-text p {
+    font-family: 'San de More Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    
+    align-items: flex-end;
+    text-align: right;
+    margin-right: 200px;
+    
+    color: #F0E6E1;   
+}
+
+.aboutme {
+    position: relative;
+    height: 1080px;
+    background-color: rgba(44, 25, 22, 0.8);
+}
+
+.aboutme-img {
+    position: absolute;
+    width: 400px;
+    height: 520px;
+    left: 170px;
+    top: 200px;
+    border-radius: 200px;
+}
+
+.aboutme p {
+    position: absolute;
+    padding: 3px 20px;
+    left: 280px;
+    top: 750px;
+    
+    font-family: 'Mongek';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    
+    color: #000000;
+    background-color: #F0E6E1;
+}
+
+
+.aboutme-slide-container {
+    width: 300vw;
+    height: 1080px;
+    transition: all 1s;
+}
+
+.slide-box {
+    width: 100vw;
+    float: left;
+}
+
+.slide-box div {
+    width: 100%;
+    height: 100%;
+}
+
+.slide-box-1 {
+    font-family: 'San de More Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+
+    text-align: center;
+    
+    color: #FFFFFF;
+    transform: translateX(450px) translateY(300px);
+}
+
+.slide-box-2 {
+    font-family: 'San de More Demo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    transform: translateX(450px) translateY(350px);
+}
+
+.slide-box-3 {
+    transform: translateX(450px) translateY(380px);
+    text-align: center;
+}
+
+.slide-box-3 img {
+    width: 160px;
+    padding: 20px;
+}
+
+.aboutme button {
+    margin-right: 30px;
+    padding: 5px 17px;
+    border-radius: 40px;
+    font-family: 'Mongek';
+    font-size: 60px;
+    border: 0;
+    background-color: transparent;
+    color:#F0E6E1;
+    transform: translateX(960px) translateY(-900px);
+    transition: all 1s;
+}
+
+.aboutme button:hover {
+    background-color: #F0E6E1;
+    color: #2C1916;
+}
+
+.experience {
+    position: relative;
+    height: 1080px;
+    background: linear-gradient(180deg, #F0E6E1 0%, #2C1916 100%);;
+}
+
+.experience-circle {
+    position: absolute;
+    top: 300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 90%;
+    background: #F0E6E1;
+    display: flex;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+
+.experience-circle:hover {
+    background: radial-gradient(50% 50% at 50% 50%, #F0E6E1 0%, #2C1916 100%);
+} 
+
+.experience h1 {
+    position: absolute;
+    left: 740px;
+    top: 700px;
+    
+    font-family: 'Mongek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 120px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.experience a {
+    text-align: center;
+    font-family: 'San de More Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.iam {
+    height: 1881px;
+    margin: 0 auto;
+    position: relative; 
+    background: #2C1916;
+}
+
+.iam p {
+    position: absolute;
+    left: 850px;
+    top: 200;
+    z-index: 10;
+    
+    font-family: 'Mongek';
+    font-weight: 400;
+    font-size: 90px;
+    text-align: center;
+    
+    color: #F0E6E1;
+}
+
+.iam-rect {
+    position: absolute;
+    width: 900px;
+    height: 1100px;
+    left: 540px;
+    top: 280px;
+    text-align: center;
+    
+    background: #F0E6E1;
+    border-radius: 200px; 
+}
+
+.iam h2 {
+    font-size: 120px;
+}
+
+.iam h3 {
+    font-size: 100px;
+}
+
+.iam h4 {
+    font-size: 80px;
+}
+
+.iam-1 {
+    position: absolute;
+    left: 200px;
+    font-family: 'Aesthetic';
+    font-weight: 400;
+}
+
+.iam-2 {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+}
+
+.iam-3 {
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    
+    font-family: 'San de More Demo';
+    font-weight: 400;
+}
+
+.iam-4 {
+    position: absolute;
+    top: 340px;
+    left: 340px;
+    
+    font-family: 'Amiri';
+    font-weight: 400;
+    font-size: 100px;
+}
+
+.iam-5 {
+    position: absolute;
+    left: 310px;
+    top: 450px;
+    
+    font-family: 'Almendra Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+}
+
+.iam-6 {
+    position: absolute;
+    left: 200px;
+    top: 580px;
+    
+    font-family: 'Mongek';
+    font-weight: 400;  
+}
+
+.iam-7 {
+    position: absolute;
+    left: 400px;
+    top: 690px;
+    
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+}
+
+.iam-8 {
+    position: absolute;
+    left: 280px;
+    top: 840px;
+    
+    font-family: 'Aesthetic';
+    font-weight: 400;
+}
+
+.vision {
+    height: 832px;
+    margin: 0 auto;
+    position: relative;
+    background: linear-gradient(#2C1916,#F0E6E1);    
+}
+
+.ellipse {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 520px;
+    height: 208px;
+    left: 700px;
+    top: 312px;
+    
+    border: 1px solid #F0E6E1;
+    border-radius: 500px / 200px;
+}
+
+.vision h1 {
+    position: absolute;
+    width: 339px;
+    height: 166px;
+    left: 780px;
+    top: 239px;
+    
+    font-family: 'Mongek';
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 180px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    
+    color: #F0E6E1;
+}
+
+.circle-t1 {
+    color: white;
+    font-family: 'San de More Demo';
+    position: absolute;
+    width: 438.86px;
+    height: 432.44px;
+    left: 1300px;
+    top: -72px;
+    animation: circle-t1 10s linear infinite; transform-origin: 50% 50%;
+}
+
+@keyframes circle-t1{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.circle-t2 {
+    color: white;
+    font-family: 'San de More Demo';
+    position: absolute;
+    width: 356.75px;
+    height: 356.46px;
+    left: 1200px;
+    top: 492px;
+    animation: circle-t2 10s linear infinite; transform-origin: 50% 50%;
+}
+
+@keyframes circle-t2{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.circle-t3 {
+    color: white;
+    font-family: 'San de More Demo';
+    position: absolute;
+    width: 121.79px;
+    height: 121.38px;
+    left: 500px;
+    top: 77px;
+    animation: circle-t3 10s linear infinite; transform-origin: 50% 50%;
+}
+
+@keyframes circle-t3{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.circle-t4 {
+    color: white;
+    font-family: 'San de More Demo';
+    position: absolute;
+    width: 327.45px;
+    height: 326.89px;
+    left: 200px;
+    top: 409px;
+    animation: circle-t4 10s linear infinite; transform-origin: 50% 50%;
+}
+
+@keyframes circle-t4{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+svg {
+    fill: currentColor;
+    height: auto;
+    max-width: 50vmin;
+    transform-origin: center;
+    width: 66%;
+}
+
+.words {
+    height: 832px;
+    margin: 0 auto;
+    position: relative;
+    background: radial-gradient(50% 50% at 50% 50%, #fff 0%, #f0e6e1 100%);
+}
+
+.words p {
+    position: absolute;
+    width: 1134px;
+    height: 150px;
+    left: 400px;
+    top: 350px;
+    
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 38px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    
+    color: #2C1916;    
+}
+
+.w-circle {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 800px;
+    top: 250px;
+    border-radius: 200px;
+    
+    background: linear-gradient(90deg, rgba(185, 142, 135, 0.5) -7.88%, rgba(185, 142, 135, 0) 107.88%);
+}
+
+.contact {
+    height: 900px;
+    margin: 0 auto;
+    position: relative;
+    background: #F0E6E1;
+    text-align: center;
+}
+
+.contact-rect {
+    position: absolute;
+    width: 501px;
+    height: 401px;
+    left: 750px;
+    top: 87px;
+    
+    background: #2C1916;
+    border-radius: 100px;    
+}
+
+.contact-rect p {
+    font-family: 'San de More Demo';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+    color: #F0E6E1;
+    display: block;
+    text-align: center;    
+}
+
+.contact-rect p>a {
+    text-decoration: none;
+    color: #F0E6E1;
+    transition: all 0.2s;    
+}
+
+.contact-rect p>a:hover {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.contact h3 {
+    position: absolute;
+    width: 483px;
+    height: 74px;
+    left: 750px;
+    top: 548px;
+    
+    font-family: 'Mongek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    display: flex;
+    align-items: flex-end;
+    
+    color: #2C1916;
+}
+
+.contact h2 {
+    position: absolute;
+    width: 545px;
+    height: 95px;
+    left: 710px;
+    top: 662px;
+    
+    font-family: 'Mongek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    display: flex;
+    align-items: flex-end;
+    
+    color: #2C1916;    
+}
