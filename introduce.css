@@ -143,7 +143,7 @@ html, body {
     text-align: center;
     
     color: #FFFFFF;
-    transform: translateX(700px) translateY(300px);
+    transform: translateX(600px) translateY(300px);
 }
 
 .slide-box-2 {
@@ -155,11 +155,11 @@ html, body {
     text-align: center;
     
     color: #FFFFFF;
-    transform: translateX(700px) translateY(350px);
+    transform: translateX(600px) translateY(350px);
 }
 
 .slide-box-3 {
-    transform: translateX(700px) translateY(380px);
+    transform: translateX(600px) translateY(380px);
     text-align: center;
 }
 
@@ -184,6 +184,14 @@ html, body {
 .aboutme button:hover {
     background-color: #F0E6E1;
     color: #2C1916;
+}
+
+.aboutme-menu-line {
+    position: absolute;
+    width: 670px;
+    border: 1px solid #F0E6E1;
+    z-index: 100;
+    transform: translateX(970px) translateY(-880px);   
 }
 
 .experience {
