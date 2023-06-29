@@ -88,6 +88,7 @@ html, body {
 
 .aboutme {
     position: relative;
+    width: 1920px;
     height: 1080px;
     background-color: rgba(44, 25, 22, 0.8);
 }
