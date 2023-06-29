@@ -1,4 +1,4 @@
-const { translate } = require("mongodb/lib/core/topologies/read_preference");
+
 
 const content = "I am . . .";
 const text = document.querySelector(".iam-iam");

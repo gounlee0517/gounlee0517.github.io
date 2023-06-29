@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     width: 1920px;
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 .main-pg {
@@ -192,7 +193,8 @@ html, body {
     width: 670px;
     border: 1px solid #F0E6E1;
     z-index: 100;
-    transform: translateX(970px) translateY(-880px);   
+    transform: translateX(970px) translateY(-880px);
+
 }
 
 .experience {
@@ -291,6 +293,7 @@ html, body {
 }
 
 .iam-1 {
+    display: none;
     position: absolute;
     left: 200px;
     font-family: 'Aesthetic';
@@ -298,6 +301,7 @@ html, body {
 }
 
 .iam-2 {
+    display: none;
     position: absolute;
     top: 100px;
     left: 250px;
@@ -307,6 +311,7 @@ html, body {
 }
 
 .iam-3 {
+    display: none;
     position: absolute;
     top: 220px;
     left: 150px;
@@ -316,6 +321,7 @@ html, body {
 }
 
 .iam-4 {
+    display: none;
     position: absolute;
     top: 340px;
     left: 340px;
@@ -326,6 +332,7 @@ html, body {
 }
 
 .iam-5 {
+    display: none;
     position: absolute;
     left: 310px;
     top: 450px;
@@ -337,6 +344,7 @@ html, body {
 }
 
 .iam-6 {
+    display: none;
     position: absolute;
     left: 200px;
     top: 580px;
@@ -346,6 +354,7 @@ html, body {
 }
 
 .iam-7 {
+    display: none;
     position: absolute;
     left: 400px;
     top: 690px;
@@ -355,6 +364,7 @@ html, body {
 }
 
 .iam-8 {
+    display: none;
     position: absolute;
     left: 280px;
     top: 840px;

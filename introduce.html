@@ -14,10 +14,10 @@
 
     <div class="main-pg">
       <div class="main-pg-menu">
-        <h1>About me</h1>
-        <h1>Experience</h1>
-        <h1>Vision</h1>
-        <h1>Contact</h1>
+        <h1 class="main-pg-aboutme">About me</h1>
+        <h1 class="main-pg-experience">Experience</h1>
+        <h1 class="main-pg-vision">Vision</h1>
+        <h1 class="main-pg-contact">Contact</h1>
       </div>
 
         <div class="main-pg-vector">
@@ -97,7 +97,7 @@
 
 
     <div class="iam">
-        <p class="iam-iam">I am . . .</p>
+        <p class="iam-iam"></p>
 
         <div class="iam-rect">
             <h4 class="iam-1">passionated</h4>
@@ -204,15 +204,87 @@
 
   <script type="text/javascript" src="./introduce.js"></script>
   <script>
-  $('.aboutme-btn').on('click', function(){
-    $('.aboutme-slide-container').css('transform', 'translateX(0vw)');
-  });
-  $('.education-btn').on('click', function(){
-    $('.aboutme-slide-container').css('transform', 'translateX(-100vw)');
-  });
-  $('.skill-btn').on('click', function(){
-    $('.aboutme-slide-container').css('transform', 'translateX(-200vw)');
-  });
+
+    $('.main-pg-aboutme').on('click', function(){
+      window.scrollTo(0, 1100, window.innerHeight);
+    })
+
+    $('.main-pg-experience').on('click', function(){
+      window.scrollTo(0, 2158, window.innerHeight);
+    })
+
+    $('.main-pg-vision').on('click', function(){
+      window.scrollTo(0, 4950, window.innerHeight);
+    })
+
+    $('.main-pg-contact').on('click', function(){
+      window.scrollTo(0, 6700, window.innerHeight);
+    })
+
+
+    $('.aboutme-btn').on('click', function(){
+      $('.aboutme-slide-container').css('transform', 'translateX(0vw)');
+    });
+    $('.education-btn').on('click', function(){
+      $('.aboutme-slide-container').css('transform', 'translateX(-100vw)');
+    });
+    $('.skill-btn').on('click', function(){
+      $('.aboutme-slide-container').css('transform', 'translateX(-200vw)');
+    });
+
+    $(window).on('scroll', function(){
+      if (window.scrollY > 3000) {
+        $('.iam-1').fadeIn(500);
+      }
+    })
+
+    $(window).on('scroll', function(){
+      if (window.scrollY > 3200) {
+        $('.iam-2').fadeIn(500);
+      }
+    })
+
+    $(window).on('scroll', function(){
+      if (window.scrollY > 3400) {
+        $('.iam-3').fadeIn(500);
+      }
+    })
+
+    $(window).on('scroll', function(){
+      if (window.scrollY > 3600) {
+        $('.iam-4').fadeIn(500);
+      }
+    })
+
+    $(window).on('scroll', function(){
+      if (window.scrollY > 3800) {
+        $('.iam-5').fadeIn(500);
+      }
+    })
+
+    $(window).on('scroll', function(){
+      if (window.scrollY > 4000) {
+        $('.iam-6').fadeIn(500);
+      }
+    })
+
+    $(window).on('scroll', function(){
+      if (window.scrollY > 4100) {
+        $('.iam-7').fadeIn(500);
+      }
+    })
+
+    $(window).on('scroll', function(){
+      if (window.scrollY > 4300) {
+        $('.iam-8').fadeIn(500);
+      }
+    })
+
+    window.addEventListener('scroll', function(){
+      console.log(window.scrollY);
+    })
+
+  
 
   </script>
 </body>
