@@ -118,15 +118,21 @@ html, body {
     background-color: #F0E6E1;
 }
 
+.aboutme-slide-wrapper {
+    width: 1000px;
+    height: 1000px;
+    z-index: 100;
+    transform: translateX(800px) translateY(360px);
+}
 
 .aboutme-slide-container {
-    width: 300vw;
-    height: 1080px;
+    width: 3000px;
+    height: 1000px;
     transition: all 1s;
 }
 
 .slide-box {
-    width: 100vw;
+    width: 1000px;
     float: left;
 }
 
@@ -138,14 +144,13 @@ html, body {
 .slide-box-1 {
     font-family: 'San de More Demo';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 40px;
     line-height: 60px;
 
     text-align: center;
     
     color: #FFFFFF;
-    transform: translateX(600px) translateY(300px);
 }
 
 .slide-box-2 {
@@ -157,17 +162,18 @@ html, body {
     text-align: center;
     
     color: #FFFFFF;
-    transform: translateX(600px) translateY(350px);
+    margin-left: 270px;
 }
 
 .slide-box-3 {
-    transform: translateX(600px) translateY(380px);
     text-align: center;
+    margin-left: 560px;
 }
 
 .slide-box-3 img {
     width: 160px;
     padding: 20px;
+    margin-top: 100px;
 }
 
 .aboutme button {
@@ -179,7 +185,7 @@ html, body {
     border: 0;
     background-color: transparent;
     color:#F0E6E1;
-    transform: translateX(960px) translateY(-900px);
+    transform: translateX(960px) translateY(-780px);
     transition: all 1s;
 }
 
@@ -193,14 +199,14 @@ html, body {
     width: 670px;
     border: 1px solid #F0E6E1;
     z-index: 100;
-    transform: translateX(970px) translateY(-880px);
+    transform: translateX(970px) translateY(-760px);
 
 }
 
 .experience {
     position: relative;
     height: 1080px;
-    background: linear-gradient(180deg, #F0E6E1 0%, #2C1916 100%);;
+    background: linear-gradient(180deg, rgba(44, 25, 22, 0.80) 0%, #2C1916 100%);
 }
 
 .experience-circle {
@@ -601,3 +607,57 @@ svg {
     
     color: #2C1916;    
 }
+
+
+
+@font-face {
+    font-family: 'Mongek';
+    src: url(./Mongek-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'San de More Demo';
+    src: url(./SandeMoreDemo-Regular.otf), url(./SandeMoreDemo-Medium.otf), 
+    url(./SandeMoreDemo-Bold.otf)
+}
+
+@font-face {
+    font-family: 'Aesthetic';
+    src: url(./Aesthetic-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Abril Fatface';
+    src: url(./AbrilFatface-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Amiri';
+    src: url(./Amiri-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Almendra Display';
+    src: url(./AlmendraDisplay-Regular.ttf)
+}
+
+
+@media (max-width: 1200px) {
+    .main-pg h1 {
+        font-size: 100px;
+    }
+    .main-pg-vector {
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        
+        background: rgba(44, 25, 22, 0.8);
+        border-radius: 380px 0px 0px 380px;
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+
+
