@@ -119,20 +119,20 @@ html, body {
 }
 
 .aboutme-slide-wrapper {
-    width: 1000px;
-    height: 1000px;
+    width: 800px;
+    height: 500px;
     z-index: 100;
-    transform: translateX(800px) translateY(360px);
+    transform: translateX(900px) translateY(360px);
 }
 
 .aboutme-slide-container {
-    width: 3000px;
-    height: 1000px;
+    width: 2400px;
+    height: 500px;
     transition: all 1s;
 }
 
 .slide-box {
-    width: 1000px;
+    width: 800px;
     float: left;
 }
 
@@ -162,12 +162,10 @@ html, body {
     text-align: center;
     
     color: #FFFFFF;
-    margin-left: 450px;
 }
 
 .slide-box-3 {
     text-align: center;
-    margin-left: 830px;
 }
 
 .slide-box-3 img {
@@ -185,7 +183,7 @@ html, body {
     border: 0;
     background-color: transparent;
     color:#F0E6E1;
-    transform: translateX(960px) translateY(-780px);
+    transform: translateX(960px) translateY(-280px);
     transition: all 1s;
 }
 
@@ -199,7 +197,7 @@ html, body {
     width: 670px;
     border: 1px solid #F0E6E1;
     z-index: 100;
-    transform: translateX(970px) translateY(-760px);
+    transform: translateX(970px) translateY(-260px);
 
 }
 
